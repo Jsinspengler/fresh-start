@@ -34,6 +34,8 @@ echo "snap install discord"
 sudo snap install discord
 echo "apt install git"
 sudo apt install git -y
+echo "snap install typora"
+snap install typora
 #install tweaks
 #read -p "installing tweaks"
 echo "apt install gnome-tweaks"
