@@ -1,5 +1,4 @@
 #!/bin/bash
-#!/bin/bash
 
 #write udev rule for touch disable
 cd /etc/udev/rules.d
