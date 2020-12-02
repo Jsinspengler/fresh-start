@@ -54,8 +54,7 @@ sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtub
 sudo chmod a+rx /usr/local/bin/youtube-dl
 #Add favourites to dock
 echo "addiing favourites to dock"
-dconf write /org/gnome/shell/favorite-apps "['chromium_chromium.desktop', 'spotify_spotify.desktop', 'org.gnome.Nautilus.desktop', 'steam.desktop', 'discord_discord.desktop']"
-
+dconf write /org/gnome/shell/favorite-apps "['chromium_chromium.desktop', 'spotify_spotify.desktop', 'org.gnome.Nautilus.desktop', 'steam.desktop', 'discord_discord.desktop', 'typora_typora.desktop']"
 
 #Set walpaper
 echo "changing walpaper"
