@@ -1,0 +1,4 @@
+#!/bin/bash
+mkdir ~/fresh-start
+#sudo chmod +x ./fresh-start.sh
+gnome-terminal -- /bin/sh -c 'cp ./fresh-start.sh ~/fresh-start; cp ./CoalFujiSnow.png ~/fresh-start; ~/fresh-start/fresh-start.sh; sleep 10; exec bash'
